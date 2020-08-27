@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="Nav"><br>
+           <b>Tic-Tac-Toe</b>
+    </div>
+    <br><br><br><br>
+    <div class="pla">
+    <b>Player1</b>
+    <input type="text" name="player1" id="player1"/>
+    <br/>
+    <br/>
+    <b>Player2</b>
+    <input type="text" name="player2" id="player2"/>
+    <br/>
+    <br/>
+    <b>Grid</b>
+    <input type="number" name="grid" id="grid" style="width:2%;"/>
+    <br><br>
+    <button onclick="rem()">Start Game</button>
+    </div>
+    <br>
+    <br>
+    <div id="pl1" style="font-weight:bolder;"></div>
+    <div id="pl2" style="font-weight:bolder;"></div>
+    <br>
+    <br>
+    <div id="turn" style="font-weight: bolder;"></div>
+    <br>
+    <div id="game-container"class="hide">
+      
+    </div>
+    <br><br>
+    <div id="result" class="result"></div>
+    <div id="draw" class="draw"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
